@@ -1,0 +1,25 @@
+header{
+    background-color: rgba(233, 224, 224, 0.815);
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-items{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 0;  
+}
+.menu-items li {
+    padding: 30px 25px;
+    list-style-type: none;
+}
+.menu-items li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.menu-items li a:hover{
+    color: red;
+}
